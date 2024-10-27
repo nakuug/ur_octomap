@@ -1,0 +1,103 @@
+[0.083s] Invoking command in '/home/shoma/ur_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shoma/ur_ws/install/ur_controllers
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.605s] -- The CXX compiler identification is GNU 11.4.0
+[0.905s] -- Detecting C compiler ABI info
+[1.043s] -- Detecting C compiler ABI info - done
+[1.048s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.048s] -- Detecting C compile features
+[1.048s] -- Detecting C compile features - done
+[1.051s] -- Detecting CXX compiler ABI info
+[1.186s] -- Detecting CXX compiler ABI info - done
+[1.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.192s] -- Detecting CXX compile features
+[1.192s] -- Detecting CXX compile features - done
+[1.195s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.311s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.388s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.392s] -- Found controller_interface: 2.43.1 (/opt/ros/humble/share/controller_interface/cmake)
+[1.534s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.539s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.547s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.557s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.942s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.946s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.979s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.030s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.033s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.187s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.189s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.196s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.286s] -- Looking for pthread.h
+[3.417s] -- Looking for pthread.h - found
+[3.418s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.547s] -- Found Threads: TRUE  
+[3.604s] -- Found joint_trajectory_controller: 2.37.3 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[3.638s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.673s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.683s] -- Found ur_dashboard_msgs: 2.2.15 (/home/shoma/ur_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[3.698s] -- Found ur_msgs: 2.0.1 (/opt/ros/humble/share/ur_msgs/cmake)
+[3.776s] -- Configuring done
+[3.833s] -- Generating done
+[3.834s] -- Build files have been written to: /home/shoma/ur_ws/build/ur_controllers
+[3.846s] Invoked command in '/home/shoma/ur_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shoma/ur_ws/install/ur_controllers
+[3.848s] Invoking command in '/home/shoma/ur_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_controllers -- -j16 -l16
+[3.892s] [ 44%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/shoma/ur_ws/build/ur_controllers/speed_scaling_state_broadcaster_parameters/include//speed_scaling_state_broadcaster_parameters.hpp /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[3.892s] [ 44%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/shoma/ur_ws/build/ur_controllers/scaled_joint_trajectory_controller_parameters/include//scaled_joint_trajectory_controller_parameters.hpp /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[3.892s] [ 44%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/shoma/ur_ws/build/ur_controllers/ur_configuration_controller_parameters/include//ur_configuration_controller_parameters.hpp /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[3.892s] [ 44%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/shoma/ur_ws/build/ur_controllers/gpio_controller_parameters/include//gpio_controller_parameters.hpp /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[4.041s] [ 44%] Built target scaled_joint_trajectory_controller_parameters
+[4.041s] [ 44%] Built target ur_configuration_controller_parameters
+[4.057s] [ 44%] Built target gpio_controller_parameters
+[4.057s] [ 44%] Built target speed_scaling_state_broadcaster_parameters
+[4.076s] [ 88%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[4.077s] [ 88%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[4.077s] [ 88%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[4.077s] [ 88%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[17.094s] [100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[17.413s] [100%] Built target ur_controllers
+[17.422s] Invoked command in '/home/shoma/ur_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_controllers -- -j16 -l16
+[17.457s] Invoking command in '/home/shoma/ur_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_controllers
+[17.462s] -- Install configuration: "Release"
+[17.463s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/gpio_controller_parameters
+[17.465s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[17.465s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters
+[17.466s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[17.466s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters
+[17.466s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[17.466s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_configuration_controller_parameters
+[17.466s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_configuration_controller_parameters/ur_configuration_controller_parameters.hpp
+[17.467s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[17.467s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/lib/libur_controllers.so
+[17.470s] -- Set runtime path of "/home/shoma/ur_ws/install/ur_controllers/lib/libur_controllers.so" to ""
+[17.470s] -- Up-to-date: /home/shoma/ur_ws/install/ur_controllers/include
+[17.470s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_controllers
+[17.470s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[17.470s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[17.471s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[17.471s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[17.471s] -- Up-to-date: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[17.471s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[17.471s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[17.472s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[17.472s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[17.472s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[17.473s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[17.473s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[17.473s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[17.473s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[17.473s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[17.474s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[17.474s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[17.474s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[17.474s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[17.475s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[17.475s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.476s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.476s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[17.476s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[17.476s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[17.476s] -- Installing: /home/shoma/ur_ws/install/ur_controllers/share/ur_controllers/package.xml
+[17.479s] Invoked command in '/home/shoma/ur_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_controllers

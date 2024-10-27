@@ -1,0 +1,77 @@
+[0.053s] Invoking command in '/home/shoma/ur_ws/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shoma/ur_ws/install/ur_moveit_config
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.598s] -- The CXX compiler identification is GNU 11.4.0
+[0.985s] -- Detecting C compiler ABI info
+[1.154s] -- Detecting C compiler ABI info - done
+[1.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.160s] -- Detecting C compile features
+[1.160s] -- Detecting C compile features - done
+[1.163s] -- Detecting CXX compiler ABI info
+[1.333s] -- Detecting CXX compiler ABI info - done
+[1.339s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.339s] -- Detecting CXX compile features
+[1.339s] -- Detecting CXX compile features - done
+[1.342s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.475s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.692s] -- Configuring done
+[1.699s] -- Generating done
+[1.700s] -- Build files have been written to: /home/shoma/ur_ws/build/ur_moveit_config
+[1.706s] Invoked command in '/home/shoma/ur_ws/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shoma/ur_ws/install/ur_moveit_config
+[1.707s] Invoking command in '/home/shoma/ur_ws/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_moveit_config -- -j16 -l16
+[1.754s] Built target ament_cmake_python_copy_ur_moveit_config
+[2.120s] running egg_info
+[2.122s] creating ur_moveit_config.egg-info
+[2.123s] writing ur_moveit_config.egg-info/PKG-INFO
+[2.123s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[2.123s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[2.124s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[2.127s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[2.127s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[2.223s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[2.245s] Invoked command in '/home/shoma/ur_ws/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_moveit_config -- -j16 -l16
+[2.291s] Invoking command in '/home/shoma/ur_ws/build/ur_moveit_config': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_moveit_config
+[2.305s] -- Install configuration: "Release"
+[2.306s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config
+[2.309s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[2.309s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[2.309s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[2.309s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[2.310s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[2.310s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/launch
+[2.311s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[2.311s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/rviz
+[2.312s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[2.312s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/srdf
+[2.312s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[2.313s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[2.314s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[2.314s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[2.314s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.15-py3.10.egg-info
+[2.316s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.15-py3.10.egg-info/PKG-INFO
+[2.316s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.15-py3.10.egg-info/SOURCES.txt
+[2.317s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.15-py3.10.egg-info/dependency_links.txt
+[2.317s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.2.15-py3.10.egg-info/top_level.txt
+[2.318s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[2.318s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[2.318s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[2.367s] Listing '/home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[2.367s] Compiling '/home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py'...
+[2.367s] Compiling '/home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py'...
+[2.371s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[2.402s] Compiling '/home/shoma/ur_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py'...
+[2.408s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[2.408s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[2.408s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[2.408s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[2.409s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[2.409s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[2.409s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[2.409s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[2.410s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[2.410s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[2.410s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[2.410s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[2.411s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[2.411s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[2.411s] -- Installing: /home/shoma/ur_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[2.414s] Invoked command in '/home/shoma/ur_ws/build/ur_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_description:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_moveit_config

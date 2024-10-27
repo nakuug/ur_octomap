@@ -1,0 +1,4 @@
+Invoking command in '/home/shoma/ur_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_description -- -j16 -l16
+Invoked command in '/home/shoma/ur_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_description -- -j16 -l16
+Invoking command in '/home/shoma/ur_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_description
+Invoked command in '/home/shoma/ur_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_description

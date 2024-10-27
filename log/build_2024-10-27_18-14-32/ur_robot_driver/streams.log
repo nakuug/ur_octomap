@@ -1,0 +1,104 @@
+[0.191s] Invoking command in '/home/shoma/ur_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ur_ws/install/ur:/home/shoma/ur_ws/install/ur_calibration:/home/shoma/ur_ws/install/ur_robot_driver:/home/shoma/ur_ws/install/ur_moveit_config:/home/shoma/ur_ws/install/ur_bringup:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:/home/shoma/ur_ws/install/ur_robot_driver/lib:/home/shoma/ros2_ws/install/person_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_robot_driver -- -j16 -l16
+[0.249s] [ 26%] Built target dashboard_client
+[0.249s] [ 53%] Built target controller_stopper_node
+[0.249s] [ 60%] Built target ur_ros2_control_node
+[0.249s] [ 86%] Built target ur_robot_driver_plugin
+[0.250s] [100%] Built target urscript_interface
+[0.250s] [100%] Built target ament_cmake_python_copy_ur_robot_driver
+[0.446s] running egg_info
+[0.446s] writing ur_robot_driver.egg-info/PKG-INFO
+[0.447s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[0.447s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[0.448s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.449s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[0.475s] [100%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[0.484s] Invoked command in '/home/shoma/ur_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ur_ws/install/ur:/home/shoma/ur_ws/install/ur_calibration:/home/shoma/ur_ws/install/ur_robot_driver:/home/shoma/ur_ws/install/ur_moveit_config:/home/shoma/ur_ws/install/ur_bringup:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:/home/shoma/ur_ws/install/ur_robot_driver/lib:/home/shoma/ros2_ws/install/person_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_robot_driver -- -j16 -l16
+[0.531s] Invoking command in '/home/shoma/ur_ws/build/ur_robot_driver': CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ur_ws/install/ur:/home/shoma/ur_ws/install/ur_calibration:/home/shoma/ur_ws/install/ur_robot_driver:/home/shoma/ur_ws/install/ur_moveit_config:/home/shoma/ur_ws/install/ur_bringup:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:/home/shoma/ur_ws/install/ur_robot_driver/lib:/home/shoma/ros2_ws/install/person_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_robot_driver
+[0.537s] -- Install configuration: "Release"
+[0.537s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[0.538s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[0.538s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[0.538s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[0.538s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[0.539s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[0.539s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include
+[0.539s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver
+[0.540s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.540s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.540s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.540s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.540s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[0.541s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[0.541s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[0.541s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[0.541s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[0.541s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[0.542s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[0.542s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[0.542s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include
+[0.542s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver
+[0.542s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[0.543s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[0.543s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[0.543s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[0.543s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[0.543s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[0.543s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.15-py3.10.egg-info
+[0.543s] -- Installing: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.15-py3.10.egg-info/PKG-INFO
+[0.543s] -- Installing: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.15-py3.10.egg-info/SOURCES.txt
+[0.543s] -- Installing: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.15-py3.10.egg-info/dependency_links.txt
+[0.544s] -- Installing: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.2.15-py3.10.egg-info/top_level.txt
+[0.544s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[0.544s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[0.566s] Listing '/home/shoma/ur_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[0.569s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[0.570s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[0.570s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[0.570s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config
+[0.571s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[0.571s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[0.571s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[0.571s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[0.571s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[0.572s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[0.572s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[0.572s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[0.572s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[0.573s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[0.574s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[0.575s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[0.575s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[0.575s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[0.576s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[0.576s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[0.576s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[0.576s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[0.577s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[0.577s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[0.577s] -- Installing: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[0.577s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[0.578s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[0.578s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.578s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[0.578s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.579s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[0.580s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[0.580s] -- Up-to-date: /home/shoma/ur_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[0.580s] Invoked command in '/home/shoma/ur_ws/build/ur_robot_driver' returned '0': CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ur_ws/install/ur:/home/shoma/ur_ws/install/ur_calibration:/home/shoma/ur_ws/install/ur_robot_driver:/home/shoma/ur_ws/install/ur_moveit_config:/home/shoma/ur_ws/install/ur_bringup:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:/home/shoma/ur_ws/install/ur_robot_driver/lib:/home/shoma/ros2_ws/install/person_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_robot_driver

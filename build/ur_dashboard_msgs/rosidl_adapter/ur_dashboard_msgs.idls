@@ -1,0 +1,14 @@
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/ProgramState.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/RobotMode.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:msg/SafetyMode.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/AddToLog.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetLoadedProgram.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetProgramState.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetRobotMode.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/GetSafetyMode.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramRunning.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/IsProgramSaved.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Load.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/Popup.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:srv/RawRequest.idl
+/home/shoma/ur_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs:action/SetMode.idl

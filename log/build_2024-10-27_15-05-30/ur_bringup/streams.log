@@ -1,0 +1,64 @@
+[0.119s] Invoking command in '/home/shoma/ur_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shoma/ur_ws/install/ur_bringup
+[0.232s] -- The C compiler identification is GNU 11.4.0
+[0.570s] -- The CXX compiler identification is GNU 11.4.0
+[0.866s] -- Detecting C compiler ABI info
+[0.985s] -- Detecting C compiler ABI info - done
+[0.991s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.991s] -- Detecting C compile features
+[0.991s] -- Detecting C compile features - done
+[0.994s] -- Detecting CXX compiler ABI info
+[1.129s] -- Detecting CXX compiler ABI info - done
+[1.134s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.134s] -- Detecting CXX compile features
+[1.135s] -- Detecting CXX compile features - done
+[1.137s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.260s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.392s] -- Configuring done
+[1.396s] -- Generating done
+[1.397s] -- Build files have been written to: /home/shoma/ur_ws/build/ur_bringup
+[1.403s] Invoked command in '/home/shoma/ur_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shoma/ur_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/shoma/ur_ws/install/ur_bringup
+[1.404s] Invoking command in '/home/shoma/ur_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_bringup -- -j16 -l16
+[1.436s] Invoked command in '/home/shoma/ur_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shoma/ur_ws/build/ur_bringup -- -j16 -l16
+[1.457s] Invoking command in '/home/shoma/ur_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_bringup
+[1.468s] -- Install configuration: "Release"
+[1.468s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config
+[1.469s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur3_update_rate.yaml
+[1.469s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur_controllers.yaml
+[1.470s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur3e_update_rate.yaml
+[1.470s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur5_update_rate.yaml
+[1.470s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur10e_update_rate.yaml
+[1.470s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur10_update_rate.yaml
+[1.470s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur16e_update_rate.yaml
+[1.471s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/ur5e_update_rate.yaml
+[1.471s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/test_velocity_goal_publishers_config.yaml
+[1.471s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/config/test_goal_publishers_config.yaml
+[1.471s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch
+[1.472s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur16e.launch.py
+[1.472s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur5e.launch.py
+[1.472s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur3e.launch.py
+[1.473s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur_control.launch.py
+[1.473s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur10.launch.py
+[1.473s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/test_forward_velocity_controller.launch.py
+[1.474s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur10e.launch.py
+[1.474s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/test_joint_trajectory_controller.launch.py
+[1.474s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur3.launch.py
+[1.474s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur5.launch.py
+[1.475s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/test_scaled_joint_trajectory_controller.launch.py
+[1.475s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/launch/ur_dashboard_client.launch.py
+[1.476s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/lib/ur_bringup/start_ursim.sh
+[1.477s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ament_index/resource_index/package_run_dependencies/ur_bringup
+[1.477s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ament_index/resource_index/parent_prefix_path/ur_bringup
+[1.478s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/environment/ament_prefix_path.sh
+[1.479s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/environment/ament_prefix_path.dsv
+[1.479s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/environment/path.sh
+[1.480s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/environment/path.dsv
+[1.480s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/local_setup.bash
+[1.480s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/local_setup.sh
+[1.480s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/local_setup.zsh
+[1.481s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/local_setup.dsv
+[1.481s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/package.dsv
+[1.481s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ament_index/resource_index/packages/ur_bringup
+[1.482s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig.cmake
+[1.482s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig-version.cmake
+[1.482s] -- Installing: /home/shoma/ur_ws/install/ur_bringup/share/ur_bringup/package.xml
+[1.486s] Invoked command in '/home/shoma/ur_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shoma/ur_ws/install/ur_controllers:/home/shoma/ur_ws/install/ur_description:/home/shoma/ur_ws/install/ur_dashboard_msgs:/home/shoma/ros2_ws/install/person_msgs:/home/shoma/ros2_ws/install/cpp_parameters:/home/shoma/ros2_ws/install/mypkg:/opt/ros/humble LD_LIBRARY_PATH=/home/shoma/ur_ws/install/ur_controllers/lib:/home/shoma/ur_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shoma/ur_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shoma/ur_ws/build/ur_bringup
