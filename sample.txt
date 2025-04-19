@@ -1,0 +1,20 @@
+ultralytics内
+　engine
+    model.py：calss Model :method __call__()
+		↓	
+                           method predict()
+                ↓
+    predictor.py : class BasePredictor : method __call__()
+                ↓
+　　　　　　　　　　　　　　　　　　　　 method stream_inference()
+                ↓                      
+  model
+    yolo > detect
+    predict.py: class DetectionPredictor : method postprocess
+
+
+
+スレッドを先に作成しておいて後からキュー等で引数を変更する
+新たにファイルを作成して共有する必要がある
+
+上記のやり方をするのであればmultiprocessのほうが高速化が望めるかもしれない
