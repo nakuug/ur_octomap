@@ -18,3 +18,5 @@ ultralytics内
 新たにファイルを作成して共有する必要がある
 
 上記のやり方をするのであればmultiprocessのほうが高速化が望めるかもしれない
+
+preprocessがpostprocessより処理時間が短いことが明確な場合、preprocessとinferenceを同じスレッドで実行しても問題はない
