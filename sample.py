@@ -51,6 +51,7 @@ from ultralytics.utils.checks import check_imgsz, check_imshow
 from ultralytics.utils.files import increment_path
 from ultralytics.utils.torch_utils import select_device, smart_inference_mode
 
+import time
 STREAM_WARNING = """
 WARNING ⚠️ inference results will accumulate in RAM unless `stream=True` is passed, causing potential out-of-memory
 errors for large sources or long-running streams and videos. See https://docs.ultralytics.com/modes/predict/ for help.
@@ -142,6 +143,9 @@ class BasePredictor:
         self._lock = threading.Lock()  # for automatic thread-safe inference
         callbacks.add_integration_callbacks(self)
 
+        self.nowtime = 0
+        self.pretime = 0
+
     def preprocess(self, im):
         """
         Prepares input image before inference.
@@ -191,9 +195,9 @@ class BasePredictor:
         )
         return [letterbox(image=x) for x in im]
 
-    def postprocess(self, preds, img, orig_imgs):
-        """Post-process predictions for an image and return them."""
-        return preds
+    # def postprocess(self, preds, img, orig_imgs):
+    #     """Post-process predictions for an image and return them."""
+    #     return preds
 
     def __call__(self, source=None, model=None, stream=False, *args, **kwargs):
         """
@@ -271,20 +275,41 @@ class BasePredictor:
             LOGGER.warning(STREAM_WARNING)
         self.vid_writer = {}
 
-    import threading 
 
     def th_preprocess(self, im0s, *args, **kwargs):
+        pre = time.time()
         im = self.preprocess(im0s)
-        th_infe = threading.Thread(target=self.th_inference, args=(im, im0s, *args, kwargs))
+        now = time.time()
+        print("preprocess time:" + str(now-pre))
+        th_infe = threading.Thread(target=self.th_inference, args=(im, im0s, *args), kwargs = kwargs)
+        print("th_preprocess")
         th_infe.start()
     
     def th_inference(self, im, im0s, *args, **kwargs):
-        preds = self.inference(im, *args, **kwargs)
-        if self.args.embed:
-            yield from [preds] if isinstance(preds, torch.Tensor) else preds  # yield embedding tensors
-            return
-        th_post = threading.Thread(target=self.postprocess, args=(preds, im, im0s))
-        th_post.start()
+        with self._lock:
+            pre = time.time()
+            preds = self.inference(im, *args, **kwargs)
+            now = time.time()
+            print("inference time:" + str(now-pre))
+            if self.args.embed:
+                #yield from [preds] if isinstance(preds, torch.Tensor) else preds  # yield embedding tensors
+                return
+            th_post = threading.Thread(target=self.th_postprocess, args=(preds, im, im0s))
+            print("th_inference")
+            th_post.start()
+
+    def th_postprocess(self, preds, im, im0s):
+        with self._lock:
+            pre = time.time()
+            self.postprocess(preds, im, im0s)
+            now = time.time()
+            print("postprocess time:" + str(now-pre))
+        self.nowtime = time.time()
+        fps = 1/(self.nowtime - self.pretime) 
+        print("fps:" + str(fps))
+        self.pretime = self.nowtime
+        print("th_postprocess")
+        print("")
 
 
     @smart_inference_mode()
@@ -302,8 +327,8 @@ class BasePredictor:
         Yields:
             (ultralytics.engine.results.Results): Results objects.
         """
-        if self.args.verbose:
-            LOGGER.info("")
+        # if self.args.verbose:
+        #     LOGGER.info("")
 
         # Setup model
         if not self.model:
@@ -335,24 +360,24 @@ class BasePredictor:
 
                 self.th_preprocess(im0s, *args, **kwargs)
                 # Preprocess
-                #with profilers[0]:
+                # with profilers[0]:
                 #    im = self.preprocess(im0s)
 
-                ## Inference
-                #with profilers[1]:
+                # ## Inference
+                # with profilers[1]:
                 #    preds = self.inference(im, *args, **kwargs)
                 #    if self.args.embed:
                 #        yield from [preds] if isinstance(preds, torch.Tensor) else preds  # yield embedding tensors
                 #        continue
 
-                ## Postprocess
-                #with profilers[2]:
+                # # Postprocess
+                # with profilers[2]:
                 #   self.results = self.postprocess(preds, im, im0s)
-                #self.run_callbacks("on_predict_postprocess_end")
+                # self.run_callbacks("on_predict_postprocess_end")
 
-                # Visualize, save, write results
-                n = len(im0s)
-                #for i in range(n):
+                # # Visualize, save, write results
+                # n = len(im0s)
+                # for i in range(n):
                 #    self.seen += 1
                 #    self.results[i].speed = {
                 #        "preprocess": profilers[0].dt * 1e3 / n,
@@ -362,9 +387,9 @@ class BasePredictor:
                 #    if self.args.verbose or self.args.save or self.args.save_txt or self.args.show:
                 #        s[i] += self.write_results(i, Path(paths[i]), im, s)
 
-                # Print batch results
-                if self.args.verbose:
-                    LOGGER.info("\n".join(s))
+                # # Print batch results
+                # if self.args.verbose:
+                #     LOGGER.info("\n".join(s))
 
                 self.run_callbacks("on_predict_batch_end")
                 #yield from self.results
